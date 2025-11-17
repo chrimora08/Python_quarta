@@ -1,0 +1,4 @@
+ID, NOME_HOST, IP
+0, server_1, 192.168.1.2
+1, client_robot, 192.168.1.100
+1, client_info, 192.168.1.150
