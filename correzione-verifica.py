@@ -25,7 +25,7 @@ def temp_per_citta(dati):
     
 def carica_regioni(nome_file):
     diz = {}
-    file = open(nome_file)
+    file = open(nome_file, "r")
     righe = file.readlines()
     file.close()
 
