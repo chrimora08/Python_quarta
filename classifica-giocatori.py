@@ -9,9 +9,10 @@ giocatori = [
 for i in range(len(giocatori)):
     for j in range(len(giocatori) - 1):
         if giocatori[j]["punteggio"] < giocatori[j + 1]["punteggio"]:
-            temp = giocatori[j]
-            giocatori[j] = giocatori[j + 1]
-            giocatori[j + 1] = temp
+            #temp = giocatori[j]
+            giocatori[j], giocatori[j + 1] = giocatori[j + 1], giocatori[j]
+
+            #giocatori[j + 1] = temp
 
 print("CLASSIFICA:")
 posizione = 1
