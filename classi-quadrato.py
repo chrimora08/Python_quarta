@@ -2,13 +2,13 @@ import turtle
 import random
 
 class Quadrato():
-    def _init_(self, lato, x, y, colore):
+    def __init__(self, lato, x, y, colore):
         self.lato = lato
         self.x = x
         self.y = y
         self.colore = colore
     
-    def _str_(self):
+    def __str__(self):
         return f"Quadrato [lato={self.lato}, pos=({self.x},{self.y}), colore={self.colore}]"
     
     def perimetro(self):
